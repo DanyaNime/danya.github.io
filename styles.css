@@ -1,0 +1,779 @@
+* {
+	margin: 0;
+}
+body {
+	background-color:#F4F9E2;
+	font-family: Larsseit;
+
+}
+.main {
+	display: block;
+}
+
+/****************HEADER****************/
+header {
+	width: 100%;
+	z-index: 1000;
+	margin: 0 auto;
+	max-width: 1300px;
+	margin-top: 27px;
+	height: 100%
+	padding:auto 100px;
+}
+/*LOGO*/
+.header_logo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	color: #62D0DF;
+	font-size: 29px;
+	margin: auto 5px;
+	font-weight: bold;
+}
+
+.logo:hover {
+	cursor: default;
+}
+/*MENU*/
+.nav_link {
+	display: inline-block;
+	position: relative;
+	color: #22356F;
+	text-decoration: none;	
+	transition: color .2s linear;
+
+}
+.nav_link:after {
+	content: "";
+	display: block;
+	opacity: 0;
+	height: 1px;
+	background-color:#22356F;
+	position: absolute;
+	width: 100%;
+	top: 140%;
+	left: 0;
+	z-index: 1;
+	transform: color .2s linear;
+}
+.nav_link:hover {
+	color: black;
+}
+.nav_link:hover:after {
+	opacity: 1;
+}
+
+.menu {
+	word-spacing: 20px;
+	font-size: 20px;
+	line-height: 16px;
+	color: #22356F;
+	margin: auto 5px;
+}
+
+.menu:hover {
+	cursor: default;
+}
+/*CONTACTUS*/
+.helps {
+	color: white;
+	text-transform: uppercase;
+	margin-left: 25px;
+	font-weight: bold;
+}
+.helps:hover {
+
+}
+.border4c {
+	height: 30px;
+	width:	150px;
+	border-radius: 50px;
+	background-color: #62D0DF;
+	border: 15px solid #62D0DF;
+	margin: auto 5px;
+	display: flex;
+	align-items: center;
+	z-index: 100;
+}
+.border4c:hover {
+	cursor: pointer;
+}
+/*******************INTO*******************/
+
+.intro {
+	padding-top: 164px;
+	margin-top: 164px;
+	flex-flow: row wrap;
+	flex-wrap: wrap;
+	align-content: space-between;
+
+	width: 100%;
+	z-index: 1000;
+	margin: 0 auto;
+	max-width: 1300px;
+}
+.logo2 {
+	padding-bottom: 40px;
+}
+.logo2:hover {
+	cursor: default;
+}
+.introask {
+	width: 43%;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #22356F;
+	padding-left: 6px;
+	letter-spacing: -0.4px;
+	font-weight: bold;
+	line-height: 60px;
+}
+.introask:hover {
+	cursor: default;
+}
+.introansw {
+	padding-top: 40px;
+	font-size: 28px;
+	color: #22356F;
+	padding-left: 6px;
+	line-height: 50px;
+	width: 40%;
+}
+.introansw:hover {
+	cursor: default;
+}
+.buttons {
+	width: 100%;
+	z-index: 1000;
+	margin: 0 auto;
+	max-width: 1300px;
+	margin-top: 57px;
+	height: 100%;
+}
+
+.button {
+	padding: 14px 14px 6px 13px;
+	align-items: center;
+	width: 130px;
+	height: 30px;
+	display: inline-block;
+	font-size: 16px;
+	color: #FAB63E;
+	text-align: center;
+ 	transition: color .2s linear;}
+
+.buttonsp {
+	margin-top: 5px;
+	font-size: 18px;
+	text-transform: uppercase;
+	align-items: center;
+	transition: color .2s linear;
+}
+.buttonsp1 {
+	margin-left: 5px;
+	font-size: 18px;
+	text-transform: uppercase;
+	align-items: center;
+	transition: color .2s linear;
+}
+.buttonsp:hover {
+	color: white;
+	background-color: #FAB63E;
+	cursor: pointer;
+}
+.buttonsp1:hover {
+	color: white;
+	background-color: #FAB63E;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #FAB63E;
+	cursor: pointer;
+}
+.buttons:hover {
+	cursor: pointer;
+}
+
+/********INTROIMG*********/
+
+.back4ground0 {
+	position: absolute;
+	background-color: white;
+	width: 30%;
+	height: 500px;
+	right: 0px;
+	z-index: -1;
+	top : 0px;
+}
+
+.back4ground {
+	position: absolute;
+    background-color: white;
+    max-width: 1300px;
+    width: 18%;
+    height: 500px;
+    right: 0px;
+    z-index: -2;
+    border-radius: 50%;
+    transform: matrix(-1.3, -0.9, -1, 1, -302, -15);
+    top: 0px;
+}
+
+.back4ground2 {
+	position: absolute;
+	background-color: white;
+	max-width: 1300px;
+	width: 30%;
+	height: 500px;
+	right: 0px;
+	z-index: -2;
+	bottom: 0px;
+}
+
+.picneg {
+	position: absolute;
+    width: 900px;
+    height: 780px;
+    top: 28px;
+    right: 0px;
+    border-radius: 31% 0px 0px 58%;
+
+}
+
+.transforn {
+	z-index: -1;
+    transform: matrix(1, -0.18, 0, 1, 0, -663);
+}
+
+/***********SECONDSLIDE****************/
+
+.secondmain {
+	display: block;
+	margin-top: 180px;
+	height: 1100px;
+	max-height: 751px;
+	max-width: 1900px;
+	background-color: #62D0DF;
+
+}
+#secondhead {
+	color: white;
+	font-size: 36px;
+	margin-left: 300px;
+	line-height: 350px;
+	font-weight: bold;
+}
+#secondhead:hover {
+	cursor: default;
+}
+.reason {
+	max-width: 599px;
+	max-height: 400px;
+	margin-left: 300px;
+}
+.reason:hover {
+	cursor: default;
+}
+
+.reasonwhy {
+	color: white;
+	font-size: 29px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.answerofreason {
+	color: white;
+	font-size: 22px;
+	line-height: 29px;
+}
+.secondfoto {
+	position: absolute;
+	background-image: url("https://sun9-40.userapi.com/impg/ISax6tykM2dW81tRiHbINWq8Sk8tSb9u7Yd5PA/-4WjpeVBH50.jpg?size=1050x1208&quality=96&sign=a3bf7ab17f175b950103138fcdd5cb7f&type=album");
+    width: 658px;
+    height: 751px;
+    right: 0px;
+    top: 971px;
+    background-size: 72%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/********************ABOUTUS********************/
+
+.aboutus {
+ background-color: white;
+ height: 1100px;
+ max-height: 551px;
+ max-width: 1900px;
+}
+
+.aboutus1 {
+	color: #22356F;
+	font-weight: bold;
+}
+.aboutus1:hover {
+	cursor: default;
+}
+#aboutus1 {
+	display: inline-block;
+	margin-left: 250px;
+	padding-top: 100px;
+	line-height: 150px;
+
+}
+.aboutus2 {
+	color: #22356F;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: -92px;
+	margin-left: 300px;
+}
+.aboutus2:hover {
+	cursor: default;
+}
+
+#aboutus2 {
+	margin-left: 300px;
+	display: flex;
+	justify-content: space-between;
+	max-width: 904px;
+	margin-left: 400px;
+
+}
+
+.wecanhelp {
+	text-align: center;
+	opacity: 50%;
+	color: #22356F;
+	font-size: 20px;
+	margin-top: 160px;
+}
+.wecanhelp:hover {
+	cursor: default;
+}
+
+
+/**************BLOCKSPROT**************/
+
+.weightlift {
+	display: inline-block;
+	width: 475px;
+	height: 320px;
+	float: left;
+	background-color: #FFE2DE;
+	text-align: center;
+	font-size: 47px;
+	color: white;
+	font-weight: bold;
+	padding-top:100px;
+
+}
+
+.runsprin {
+	display: inline-block;
+	width: 475px;
+	height: 320px;
+	background-color:#C4E769;
+	float: left;
+	text-align: center;
+	font-size: 47px;
+	color: white;
+	font-weight: bold;
+	padding-top:100px;
+}
+
+
+.pumniron{
+	display: inline-block;
+	width: 475px;
+	height: 320px;
+	background-color: #62D0DF;
+	float: left;
+	text-align: center;
+	font-size: 47px;
+	color: white;
+	font-weight: bold;
+	padding-top:100px;
+
+}
+
+.pumpiron2 {
+	display: inline-block;
+	width: 475px;
+	height: 320px;
+	background-color:#0052C1;
+	float: left;
+	text-align: center;
+	font-size: 47px;
+	color: white;
+	font-weight: bold;
+	padding-top:100px;
+
+
+}
+
+
+.orangemarker {
+	color: #E9B730;
+}
+
+li span {
+	color: white;
+	padding-right: 40px;
+	border-top: 1px solid white;
+}
+
+li span:hover {
+	cursor: default;
+}
+
+.whitebox {
+	height: 200px;
+	max-width: 2200px;
+	background-color: white;
+	margin-top: 420px;
+}
+
+.spin {
+	width: 193px;
+    padding-left: 148px;
+    border-top: 1px solid #C4E769;
+    border-bottom: 211px solid #C4E769;
+}
+
+.physical {
+	display: inline-block;
+	width: 634px;
+	height: 604px;
+	background-color: #22356F;
+	float: left;
+}
+
+.mental {
+	display: inline-block;
+	width: 634px;
+	height: 604px;
+	background-color: #0052C1;
+	float: left;
+}
+
+.nutrition {
+	display: inline-block;
+	width: 634px;
+	height: 604px;
+	background-image: url("https://sun1-86.userapi.com/impg/Rb566I3NtewBicJeYp3LZohRljam8IUZzXBr4w/LlH5HSHicF0.jpg?size=960x960&quality=96&sign=bb76da9fc6e5068ed50600d74cce8abb&type=album");
+	background-size: cover;
+	float: left;
+}
+
+.gym {
+	display: inline-block;
+	width: 634px;
+	height: 604px;
+	background-color: #62D0DF;
+	float: left;
+}
+
+.cross {
+	display: inline-block;
+	width: 634px;
+	height: 604px;
+	background-color: #DEE1FF;
+	float: left;
+}
+
+.aerobic {
+	display: inline-block;
+	width: 634px;
+	height: 604px;
+	background-color: #8F00FF;
+	background-size: cover;
+	float: left;
+}
+
+.bordera {
+	padding-left: 100px;
+	margin-top: 190px;
+	width: 500px;
+	font-size: 42px;
+}
+
+li {
+	color: orange;
+}
+
+
+.whitemenu {
+	max-width: 1903px;
+	height: 800px;
+	margin-top: 1207px;
+	background-color: white;
+
+}
+
+
+
+
+
+.nutplan {
+	display: inline-block;
+	height: 300px;
+	width: 350px;
+	margin-left: 230px;
+	margin-left: 150px;
+	margin-top: 100px;
+
+}
+
+.weihtloss {
+	display: inline-block;
+	height: 300px;
+	width: 350px;
+	margin-left: 230px;
+	
+
+}
+
+.mentalpeace {
+	display: inline-block;
+	height: 300px;
+	width: 350px;
+	margin-left: 230px;
+
+}
+
+.hometrain {
+	display: inline-block;
+	height: 300px;
+	width: 350px;
+	margin-left: 230px;
+	margin-left: 150px;
+
+}
+
+.worklife {
+	display: inline-block;
+	height: 300px;
+	width: 350px;
+	margin-left: 230px;
+	
+
+}
+
+.cardio {
+	display: inline-block;
+	height: 300px;
+	width: 350px;
+	margin-left: 230px;
+	vertical-align: top;
+
+}
+
+
+
+.h1span {
+	font-size: 32px;
+	color: #22356F;
+	padding-left: 10px;
+}
+
+.textlow {
+	font-size: 20px;
+	color: #22356F;
+	opacity: 50%;
+	text-align: left;
+}
+
+.stepon {
+	margin-top: 30px;
+}
+
+.shouldalso{
+	max-width: 1904px;
+	height: 950px;
+	background-color: white;
+}
+
+.manfoto{
+	float: left;
+	width: 600px;
+	height: 950px;
+	background-image: url("https://sun9-28.userapi.com/impg/Imw5wMiE7hWDUrIyqiYCpB_k90ASXsLF3PQVrw/JCtEsUyJnNc.jpg?size=960x1600&quality=96&sign=f039baa3884e080332284a435927d3d3&type=album");
+	background-size: 100%;
+}
+
+.youshould{
+	padding-top: 100px;
+	margin-left: 740px;
+	font-size: 20px;
+	color: #22356f;
+	line-height: 12px;
+	letter-spacing: 0.06em;
+}
+
+.mdd{
+	margin-top: 240px;
+	margin-left: 740px;
+	font-size: 40px;
+	color: #22356F;
+	width: 709px;
+	line-height: 53px;
+	letter-spacing: -0.01em;
+	height: 230px;
+}
+
+.gethelp{
+	font-size: 20px;
+	color: #FAB63E;
+	margin-left: 740px;
+	margin-top: 250px;
+	letter-spacing: 0.1em;
+	transition: color .2s linear;
+}
+
+.gethelp span:hover {
+	cursor: pointer;
+	color: #b27304;
+}
+
+.colorspan {
+	color: #62D0DF;
+}
+
+.smile {
+	max-width: 1904px;
+	height: 950px;
+	background-color: #22356F;
+}
+
+.contactus {
+	font-size: 20px;
+	color: white;
+	line-height: 12px;
+	letter-spacing: 0.06em;
+	color: white;
+	margin-left: 230px;
+	padding-top: 100px; 
+}
+
+.readyset {
+	font-size: 44px;
+	line-height: 94px;
+	letter-spacing: -0.01em;
+	color: white;
+	margin-left: 230px;
+	margin-top: 250px; 
+}
+
+.take {
+	font-size: 30px;
+	line-height: 43px;	
+	letter-spacing: -0.005em;
+	width: 412px;
+	color: white;
+	margin-left: 230px;
+	margin-top: 100px; 
+}
+
+.gethelpf {
+	font-size: 16px;
+	letter-spacing: 0.1em;
+	color: #62D0DF;
+	margin-left: 230px;
+	margin-top: 220px; 
+}
+
+.fotosmile {
+	height: 950px;
+	width: 600px;
+	float: right;
+	background-size: 100%;
+	background-image: url("https://sun9-23.userapi.com/impg/rK9gDFUjO-xv8gsDgoECYP1Bj2X-9zSZf4Jcqw/gSEOw2DU_O0.jpg?size=960x1600&quality=96&sign=1d15704d8e6d4f97c07ee727d062324b&type=album");
+}
+
+
+.last {
+	max-width: 1904px;
+	height: 550px;
+	background-color: white;
+}
+
+.info {
+	padding-top: 200px;
+	margin-left: 200px;
+	display: inline-block;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 11px;
+	letter-spacing: -0.006em;
+	color: #22356F;
+}
+
+.enfold {
+	display: inline-block;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 11px;
+	letter-spacing: -0.006em;
+	color: #22356F;
+	margin-left: 120px;
+}
+
+.office {
+	display: inline-block;
+	width: 300px;
+	height: 50px;
+	font-size: 23px;
+	line-height: 11px;
+	letter-spacing: -0.006em;
+	color: #22356F;
+}
+
+.lorem {
+	margin-left: 200px; 
+	display: inline-block;
+	line-height: 43px;
+	letter-spacing: -0.006em;
+	color: #22356F;
+	opacity: 50%;
+	font-size: 20px;
+	width: 282px;
+
+}
+
+.main1 {
+	display: inline-block;
+	line-height: 30px;
+	letter-spacing: -0.006em;
+	color: #22356F;
+	opacity: 50%;
+	font-size: 20px;
+	width: 300px;
+	margin-left: 138px;
+}
+
+.mofr {
+	display: inline-block;
+	line-height: 46px;
+	letter-spacing: -0.006em;
+	color: #22356F;
+	opacity: 50%;
+	font-size: 20px;
+	width: 300px;
+}
+
+.woman {
+	width: 675px;
+	height: 550px;
+	background-size: cover;
+	float: left;
+	background-image: url("https://sun1-89.userapi.com/impg/vRZPmAFpydoug0iLx4MWfbY0rE30sXo-1IHMdw/qjiWcgLmRpI.jpg?size=1140x760&quality=96&sign=150405118e88a22bb37fcc0d973e4e4a&type=album");
+}
